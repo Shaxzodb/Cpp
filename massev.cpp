@@ -4,9 +4,9 @@ using namespace std;
 int main(){
     int **arr;
     int m,n;
-    cout<<"Massew satrini kiritish: ";
+    cout<<"Massev satrini kiritish: ";
     cin>>m;
-    cout<<"Massew ustunlar sonini kiritish: ";
+    cout<<"Massev ustunlar sonini kiritish: ";
     cin>>n;
     arr=new int *[m];
     
@@ -16,9 +16,10 @@ int main(){
         for (int z = 0; z < n; z++) 
         {    
             arr[i][z]=z;
-            //delete []arr[i];
-            //delete []arr;
-            //delete arr;
+/*          delete []arr[i];
+            delete []arr;
+            delete arr;
+*/
             cout<<arr[i][z];
         }
     }
