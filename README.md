@@ -1,3 +1,3 @@
 # ==========
-| C++ vcpkg bu istaller paket urnatkich |
+# | C++ vcpkg bu istaller paket urnatkich |
 # ==========
